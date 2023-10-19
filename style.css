@@ -38,9 +38,11 @@ h3 {
   font-size: 30px;
 }
 
-button {
+
+#btn,
+#copy_btn {
   width: 90%;
-  display: block;
+  /* display: block; */
   padding: 10px;
   font-size: 30px;
   border: none;
@@ -50,3 +52,8 @@ button {
   cursor: pointer;
   margin: 0px 20px;
 }
+
+#copy_btn {
+  margin-top: 10px;
+}
+
